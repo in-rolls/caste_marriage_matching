@@ -133,7 +133,7 @@ A regression can be rank-deficient because a requested caste indicator has no in
 |weighted_handoff    |verified_interview_subset |logwage_female    |samecaste          | 102|           0|
 |weighted_handoff    |verified_interview_subset |logwage_female    |highercaste_female | 102|           0|
 
-Education is measured in ordered categories, age differences in years, and height differences in metres. The program exponentiates the variable named `logincome` before these regressions, so those coefficients are monthly rupees. `logwage` remains the log occupation-based wage measure. Beauty variables are indicators and skin tone is an ordered category. Panel labels refer to whose attributes are the outcomes: the groom-income regression conditions on the woman's characteristics and compares the caste position of the groom relative to her.
+Education is measured in ordered categories, age differences in years, and height differences in meters. The program exponentiates the variable named `logincome` before these regressions, so those coefficients are monthly rupees. `logwage` remains the log occupation-based wage measure. Beauty variables are indicators and skin tone is an ordered category. Panel labels refer to whose attributes are the outcomes: the groom-income regression conditions on the woman's characteristics and compares the caste position of the groom relative to her.
 
 This extension does not equate partner reassignment or unchanged total income with the paper's conditional cost estimates. It reconstructs the actual conditional regressions. No uncertainty band from ten selected allocations is presented as the paper's 250-draw interval.
 
